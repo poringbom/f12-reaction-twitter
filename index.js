@@ -3,7 +3,7 @@ let position = 0;
 setInterval(()=> {
     window.scrollTo(0, position+=1000)    
     reaction();
-}, 1000)
+}, 5000)
 
 
 
@@ -27,7 +27,7 @@ function rewit(post){
         setTimeout(()=> {
             const cfRewit = document.querySelector('div[data-testid="retweetConfirm"]');
             cfRewit.click();
-         }, 300);
+         }, 500);
     }
 }
 
